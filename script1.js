@@ -8,7 +8,7 @@ console.log(firstname);
 
 console.log("welcome to Javascript ")
 
-// Don't start variable name with - new, function, uppercase letter, number - 3year, 
+// Don't start variable name with - new, function,class,return, uppercase letter, number - 3year, 
 
 let age =23;   // number
 let _name = 'jonas'; //string
