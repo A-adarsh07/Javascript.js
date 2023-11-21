@@ -16,7 +16,7 @@ else {
     alert("who are you")
 }
 
-let user = 'John', age = 25, message = 'Hello'; //can declare multiple variables at once ;not don't use it 
+let user = 'John', age = 25, message = 'Hello'; //can declare multiple variables at once ; don't use it 
  
 // We can also declare two variables and copy data from one into the other.
 

@@ -8,3 +8,7 @@ if (age>=18 && raceIzm == false) {
 alert("You can loose virginity without criminal charges!");
 } else {
 alert("FBI OPEN UP!!!");  }
+
+// Let and const = provide Block Scope in js ,
+// variables declared inside a {} block cannot be accessed from outside the block.
+ 
