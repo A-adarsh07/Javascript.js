@@ -30,3 +30,4 @@ let isOld= confirm("Are you 23 yeares old ?");
 alert(isOld);
 
 
+// In "Strict Mode", undeclared variables are not automatically global.
