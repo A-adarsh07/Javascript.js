@@ -20,6 +20,16 @@ console.log(`hello ${12}`);
 console.log(`hello ${"name"}`);
 console.log(`hello ${name1}`);
 
+let job= "network engineer";
+let company= 'Rubico IT';
+year=2023;
+
+// STRING LITERALS 
+
+let intro= `Hello my name is ${name1} and i work in ${company} as a ${job} since ${year}`;
+console.log(intro);
+ 
+
 // Alert , Prompt , Confirm
 
 let age = prompt('How old are you ?', 23);
