@@ -34,3 +34,4 @@ let Age= function (birthyear){
 }
 const agecalculate = Age(1999);
 console.log(agecalculate);
+//  WE CANNOT CALL FUNCTION DECLARATION BEFORE INITIALIZATION IN FUNCTION EXPRESSION , IT'LL WILL GIVE REFERENCE ERROR.
