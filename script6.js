@@ -34,4 +34,10 @@ let Age= function (birthyear){
 }
 const agecalculate = Age(1999);
 console.log(agecalculate);
-//  WE CANNOT CALL FUNCTION DECLARATION BEFORE INITIALIZATION IN FUNCTION EXPRESSION , IT'LL WILL GIVE REFERENCE ERROR.
+//  WE CANNOT CALL FUNCTION  BEFORE INITIALIZATION IN FUNCTION EXPRESSION , IT'LL WILL GIVE REFERENCE ERROR.
+
+// Arrow function using in function expression
+
+let myage =(birthyear) => 2023-birthyear;
+const agenow= myage(1997);
+console.log(agenow);

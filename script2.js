@@ -23,3 +23,16 @@ let user = 'John', age = 25, message = 'Hello'; //can declare multiple variables
 let hello = "good morning";
 let text  = hello;
 console.log(text);
+
+
+let str = "123";
+alert(typeof str); // string
+
+let num = Number(str); // becomes a number 123
+
+alert(typeof num); // number
+
+// in JavaScript, a non-empty string is always true.
+alert( Boolean("0") ); // true
+alert( Boolean(" ") ); // spaces, also true (any non-empty string is true)
+
