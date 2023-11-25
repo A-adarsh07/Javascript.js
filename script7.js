@@ -16,9 +16,9 @@ console.log(null == undefined);   //true
 console.log(null === undefined);   // false
 
 
-// Arrow function using in function expression
+// Arrow function used  in function expression
 
-let myage =(birthyear) => 2023-birthyear;
+let myage =(birthyear) => 2023-birthyear;   // same as -  let myage = function(birthyear){ return 2023-birthyear ; }
 
 const agenow= myage(1997);
 
