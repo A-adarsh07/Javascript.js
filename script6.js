@@ -1,9 +1,10 @@
 'use strict';
+intro();
+
 function intro(){
     console.log(`My name is Charlie`);
 }
 
-intro();
 
 // ********** FUNCTION DECLARATION *********
 function juice(apple, orange){
@@ -12,18 +13,19 @@ function juice(apple, orange){
     return Juicer;
 }
 
-// juice(3,4); will give output of line 9 only. Need to store return value somewhere;
-const result = juice(3,4);
+const result = juice(3,4);// juice(3,4); will give output of line 9 only. Need to store return value somewhere;
 console.log(result);
-
-function calculateage(birthyear){
-     let age=2023-birthyear;
-    const Age= `You are ${age} years old`;
-    return Age;
-}
 
 let agecalc= calculateage(1997);
 console.log(agecalc);
+
+function calculateage(birthyear){
+    let age=2023-birthyear;
+    const Age= `You are ${age} years old`;
+    return Age;
+    
+}
+
 
 // ********** FUNCTION EXPRESSION *********
 
@@ -36,8 +38,4 @@ const agecalculate = Age(1999);
 console.log(agecalculate);
 //  WE CANNOT CALL FUNCTION  BEFORE INITIALIZATION IN FUNCTION EXPRESSION , IT'LL WILL GIVE REFERENCE ERROR.
 
-// Arrow function using in function expression
 
-let myage =(birthyear) => 2023-birthyear;
-const agenow= myage(1997);
-console.log(agenow);

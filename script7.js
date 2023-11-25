@@ -16,3 +16,19 @@ console.log(null == undefined);   //true
 console.log(null === undefined);   // false
 
 
+// Arrow function using in function expression
+
+let myage =(birthyear) => 2023-birthyear;
+
+const agenow= myage(1997);
+
+console.log(agenow);
+
+
+let retirementage= birthage=> {
+    let birthyear= 2023-birthage;
+    let retirement= 65-birthyear;
+    return retirement;
+}
+
+console.log(retirementage(1999));
