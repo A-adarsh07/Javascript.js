@@ -23,3 +23,9 @@ if(0){
 if ("0"){
     console.log("hello"); //will print hello
 }
+
+true || alert("not printed");
+false || alert("printed");
+// In the first line, the OR || operator stops the evaluation immediately upon seeing true, so the alert isn’t run.
+// Sometimes, people use this feature to execute commands only if the condition on the left part is falsy.
+
