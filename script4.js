@@ -10,7 +10,7 @@ alert("You can loose v without criminal charges!");
 alert("FBI OPEN UP!!!");  }
 
 // Let and const = provide Block Scope in js ,
-// variables declared inside a {} block cannot be accessed from outside the block.
+// variables declared inside a {} block cannot be accessed from outside the block. Var is not block scoped.
 
 // Variables defined with var are hoisted to the top and can be initialized at any time.
 

@@ -12,7 +12,7 @@ if (year == 2015) {
 
 // in If(...) conditions , converts the result to boolean.
 
-// A number 0, an empty string "", null, undefined, and NaN all become false. Because of that they are called “falsy” values.
+// A   ( number 0, an empty string "", null, undefined, and NaN ) all become false. Because of that they are called “falsy” values.
 if("0"){
     alert('hello');  // it'll show hello bcz it is not empty.
 }
