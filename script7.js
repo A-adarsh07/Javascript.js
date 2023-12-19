@@ -12,9 +12,9 @@ console.log(null === undefined); //false
 // A strict equality operator === checks the equality without type conversion.
 
 console.log(0 === false) // false.
-console.log(null == undefined);   //true
-console.log(null === undefined);   // false
-
+console.log("Nan and null");
+console.log(NaN == null);
+console.log(NaN == undefined);
 
 // Arrow function used  in function expression
 
