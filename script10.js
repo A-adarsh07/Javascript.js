@@ -23,10 +23,10 @@ console.log(window.a);
 //    Let and Const - Temporal deadzone state and are block scoped
 
 // if you initialize    , 
-console.log(a); // cannot access a before initialization. but in case of var it'll show undefined bcz it'll create a memory for var.
-let a = 11;
+console.log(c); // cannot access a before initialization. but in case of var it'll show undefined bcz it'll create a memory for var.
+let c = 11;
 var b =2;
  
-console.log(window.a); // will throw "undefined " error   but not in case of var bcz var comes in global 
-console.log(this.a)
+console.log(window.c); // will throw "undefined " error   but not in case of var bcz var comes in global 
+console.log(this.c)
 

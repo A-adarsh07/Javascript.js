@@ -13,7 +13,7 @@ function juice(apple, orange){
     return Juicer;
 }
 
-const result = juice(3,4);// juice(3,4); will give output of line 9 only. Need to store return value somewhere;
+const result = juice(3,4);// juice(3,4); will give output of line 12 only. Need to store return value somewhere;
 console.log(result);
 
 let agecalc= calculateage(1997);
