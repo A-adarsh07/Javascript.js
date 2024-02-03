@@ -45,3 +45,23 @@ f();
     console.log(y);
 
 
+
+    // Primitive data types(number, string,boolean, bigInt, ) = stacks
+    // Non-primitive types(array,objects, function)= Heaps 
+
+    let myname="Adarshmishra";
+    let officename=myname;
+    officename="Charlieadarsh";
+
+    console.log(myname);
+    console.log(officename);
+
+    let emp1={
+        email:"charlieadarsh@google.com",
+        username:"charlieadarsh"
+    }
+    let emp2=emp1;
+    console.log(emp2); 
+    emp2.email="charlieadarsh10@google.com";   //Here in heap memory the value will be changed for emp1 also bcz of refrence value.
+    console.log(emp1.email); 
+    console.log(emp2.email);
