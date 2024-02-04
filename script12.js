@@ -50,3 +50,28 @@ const z=Symbol('123');
 console.log(xyz);
 console.log(z);
 console.log(xyz == z);
+
+
+// Function returning another function
+function higherOrderFunction() {
+    function displayHello() {
+      console.log("Hello");
+    }
+    return displayHello;
+  }
+   
+  // driver code
+var func=  higherOrderFunction();
+func();
+
+//First-Class function : First-class functions when functions in that language are treated like any other variable
+function sayHello() {
+    return "Hello, ";
+  }
+  function greeting(helloMessage, name) {
+    console.log(helloMessage() + name);
+  }
+  // Pass `sayHello` as an argument to `greeting` function
+  greeting(sayHello, "JavaScript!");
+  // Hello, JavaScript!
+  
