@@ -1,3 +1,11 @@
+
+// A package is a chunk of code that can be distributed (copied and installed). It may contain one or more modules and has information about which other packages it depends on. 
+// A module is a piece of program that specifies which other pieces it relies on and which functionality it provides for other modules to use (its interface).
+// The relations between modules are called dependencies. When a module needs a piece from another module, it is said to depend on that module.         
+
+
+
+
 // Functions
 
 let student ="rahul";
@@ -73,5 +81,20 @@ function sayHello() {
   }
   // Pass `sayHello` as an argument to `greeting` function
   greeting(sayHello, "JavaScript!");
-  // Hello, JavaScript!
-  
+  //A function that returns a function or takes other functions as arguments is called a higher-order function.
+
+//  The function that we pass as an argument to another function is called a callback function. sayHello() is a callback function. 
+
+function callbackExecutor(callback) {
+    if (typeof callback === "function") {
+      callback();
+    }
+  }
+   
+  // driver code
+  function callbackFunc() {
+    console.log("Callback function executed");
+  }
+   
+  callbackExecutor(callbackFunc); // Callback function executed
+
