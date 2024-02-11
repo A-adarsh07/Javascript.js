@@ -29,4 +29,9 @@ if (friends.includes('peter')){
     console.log("You are also the admin of WP group");
 }
 
-
+const Years =[1992,1993,1988,1999];
+const ages=[];
+for (let i =0;i<Years.length;i++){
+    ages.push(2024-Years[i]);
+}
+console.log(ages);
