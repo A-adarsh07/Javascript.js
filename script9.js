@@ -21,3 +21,8 @@ const min =10
 const max =50
 console.log(Math.floor(Math.random()*(max-min+1)) + min);
 // Added min because we need at least that min value 
+
+let myDate =new Date();
+console.log(myDate);
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleDateString());
