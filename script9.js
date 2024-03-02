@@ -26,3 +26,10 @@ let myDate =new Date();
 console.log(myDate);
 console.log(myDate.toDateString());
 console.log(myDate.toLocaleDateString());
+
+let myTime = Date.now();
+console.log(Math.floor(Date.now()/1000));
+
+let Dates= new Date();
+console.log(Dates.getDay());
+
