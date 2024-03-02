@@ -1,7 +1,9 @@
-let person1 = ()=>{
+let person1 = function(){
     fullName="Maxwell Wright";
     Phone="01917196495";
     email="Curabitur.egestas.nunc@nonummyac.co.uk";
-    console.log(`${this.fullName} ${this.Phone} ${this.email}`)
+    return (`${fullName} ${Phone} ${email}`)
 }
-person1();
+
+const info=person1;
+console.log(person1());
