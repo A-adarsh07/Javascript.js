@@ -27,3 +27,4 @@ else {
 // Add elements in objects
 Adarsh.location='Haridwar';
 Adarsh['lastName']='Mishra';
+
