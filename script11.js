@@ -65,3 +65,5 @@ f();
     emp2.email="charlieadarsh10@google.com";   //Here in heap memory the value will be changed for emp1 also bcz of refrence value.
     console.log(emp1.email); 
     console.log(emp2.email);
+
+    
