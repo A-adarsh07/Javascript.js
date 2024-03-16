@@ -17,3 +17,14 @@ const addtwo = (num1, num2) => {
 const add2 = (num1,num2) => (num1+num2) ;  // If there is no curly bracket {} then no need to use 'return' keyword
 
 console.log(addtwo(2,2)); 
+
+// IIFE = Immediately Invoked Function Expressions
+
+(function chai(){
+    console.log('Bring me masala chai');
+})();
+
+// we can also write this using arrow function 
+( (name) => {
+    console.log(`Chai badhiya hai ${name}`);
+})('sam');
