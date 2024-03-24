@@ -71,3 +71,26 @@ let val1= 100;
 let val2=22;
 let val3= 400;
 console.log(Array.of(val1,val2,val3));
+
+
+// FOREACH FUNCTION IN ARRAY
+const languages =["c++","java","python","Ruby","kotlin"]
+
+languages.forEach(function(items) {
+    console.log(items);
+})
+
+
+// Filters in array
+
+const mynums=[1,2,3,4,5,6,7,8];
+
+let filternum= mynums.filter((nums)=> nums>3);
+
+console.log(filternum);
+
+// WE CAN'T RETURN VALUES IN FOREACH FUNCTION so we use filter
+
+const myNumbers=[1,2,3,4,5,6,7,8,9];
+const newNums=myNumbers.map((num) => num*10).map((num)=>num+1).filter((num)=>num >= 30);
+    console.log(newNums);
