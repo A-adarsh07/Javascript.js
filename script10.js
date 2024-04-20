@@ -18,7 +18,7 @@ console.log(window.a);
  a();
   
 //  Here the  js engine will create a call stack and in call stack a global execution context will be created where a memory will be created for function a , then above that another stack will be created for a() execution context, and above that another stack will be created for c(), 
-// lexical environment is nothing but a scope chain where you'll find local environment of a function , for ex. In  a() stack , you'll find a local memory of a along with parent lexical environment. 
+// lexical environment is nothing but a scope chain where you'll find local environment of a function , for ex. In  a() stack , you'll find a local memory of 'a' along with parent lexical environment. 
 
 //    Let and Const - Temporal deadzone state and are block scoped
 
