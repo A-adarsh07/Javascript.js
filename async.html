@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async-await</title>
+</head>
+<body>
+    <h1>Coffeee and codee</h1>
+    <button id ="stop">Stop</button>
+
+    <h2>Hello My name is Adarsh Mishra</h2>
+
+
+    <h3>Haridwar and Delhi</h3>
+    <button id = chalo>chalo</button>
+    <button id = No>Abhi nahi</button>
+</body>
+
+<Script>
+    setTimeout(function(){
+        console.log("Adarsh");
+        // console.log(Adarsh);
+     },2000)
+// OR we can write like this
+     const SayAdarsh = function(){
+        console.log("adarsh Again ");
+     }
+     setTimeout(SayAdarsh,3000)
+
+   const changetext =function(){
+    document.querySelector('h1').innerHTML= "Adarsh and Netflix"
+} 
+//    setTimeout(changetext,3000);
+
+     const stoptext= setTimeout(changetext,3000);
+   document.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(stoptext);
+    console.log("stopped the event");
+   })
+
+const changeIntro = function(){ 
+    document.querySelector('h2').innerHTML = "Associate Network/Cloud Support";
+}
+setTimeout(changeIntro,3000);
+
+let intervalId
+
+document.querySelector('#chalo').addEventListener('click',function(){
+    // console.log("Chalo Haridwar");
+
+intervalId = setInterval(function(){
+    console.log("chalo haridwar");
+},1000);
+});
+
+    document.querySelector('#No').addEventListener('click',function(){
+    clearInterval(intervalId);
+})
+
+// setInterval
+
+const Hello= function(str){
+console.log(str,Date.now());
+}
+const helloid= setInterval(Hello,2000,"Helloooo sunshine ,how's it going ?? lets go to cafeteria for a coffeee ");
+// setTimeout(helloid,5000);
+
+setTimeout(()=> {clearInterval(helloid)},5000);
+
+</Script>
+
+</html>
