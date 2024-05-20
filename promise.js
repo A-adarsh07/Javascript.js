@@ -23,7 +23,7 @@ const getPromise=()=> {
 };
 
 let promise = getPromise();
-promise.then((res) => {                    //we can also pass some parameter in then and catch .
+promise.then((res) => {                    //we can also pass some parameter in 'then' and 'catch' .
     console.log("promise fulfilled",res);
 });
 
@@ -84,3 +84,12 @@ asyncfunc1().then((res)=>{
     console.log("fetching data 3...");
     return asyncfunc3();
 });
+
+
+// ASYNC FUNCTION ALWAYS RETURNS A PROMISE;
+// AWAIT PAUSES THE EXECUTION OF ITS SURROUNDING ASYNC FUNCTION UNTIL THE PROMISE IS SETTLED
+
+
+ async function hello (){
+    console.log("heeloo");
+  }
