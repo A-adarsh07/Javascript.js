@@ -60,7 +60,8 @@ console.log(z);
 console.log(xyz == z);
 
 
-// Function returning another function
+// Function returning another function called Higher order functions 
+
 function higherOrderFunction() {
     function displayHello() {
       console.log("Hello");
